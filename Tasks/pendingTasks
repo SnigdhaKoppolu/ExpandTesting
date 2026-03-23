@@ -1,0 +1,41 @@
+#1
+1. Create generic methods for excel reading
+2. Create generic methods for configurational file
+3. Create generic methods for javaScriptExecutor
+4.......
+
+#2
+1. Create multiple page classes
+2. Create multiple test cases
+3. Minimum write 70-80 test cases
+4. Use reporting allure
+5. log4j2
+
+#3
+1. Listener
+2. itestlistener, iretryanalyzer
+3. Take screenshot for the failed test cases
+4. Create a log for the failed test cases
+5. Create test suite file, categorize tests on basis of smoke, regression
+
+#4
+1. Jenkins execute test by Jenkins
+2. get the code from GitHub
+3. make the repository private
+4. Execute tests parallelly
+
+#5.
+Execute  your tests without opening the browser
+(headless mode)
+
+
+#6.
+seleniun grid--->server and node
+
+
+#7.
+Keep your Git repository updated
+(Keep on adding the test cases)
+
+
+
