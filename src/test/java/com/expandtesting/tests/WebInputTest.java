@@ -42,9 +42,12 @@ public class WebInputTest extends SetUp{
 	 Waits.staticWait();
 	 wi.clickOnDisplayInputs();
 	String str =  wi.displayOutputNumber();
-    
-	System.out.println("My Number"+str);
+	
+	//System.out.println("My Number"+str);
+	
 	Assert.assertEquals(str, "123");
+	
+	
   }
   
   //need to write more testcases
