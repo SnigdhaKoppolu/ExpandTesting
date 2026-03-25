@@ -15,7 +15,7 @@
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>
-
+                              webinputsTest.xml
 							</suiteXmlFile>
 
 						</suiteXmlFiles>
