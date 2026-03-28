@@ -8,7 +8,6 @@
           <include name="verifyLoginFunWithValidCredentials"/>
           <include name="setUp"/>
           <include name="teardown"/>
-          <include name="verifyLoginFunWithInValidCredentials"/>
         </methods>
       </class> <!-- com.expandtesting.tests.LoginTest -->
     </classes>

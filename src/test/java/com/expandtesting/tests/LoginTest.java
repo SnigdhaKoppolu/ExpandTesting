@@ -40,17 +40,21 @@ public class LoginTest extends SetUp {
 
 	@Test(priority = 1)
 	public void verifyLoginFunWithValidCredentials() {
-		Waits.staticWait();
-		lp.enterUsername("practice");
-		lp.enterPassword("SuperSecretPassword!");
-		lp.clickOnLogin();
-		Waits.staticWait();
-		String str = lp.getLoginMessage();
-
-		System.out.println("Login message : " + str);
-		Assert.assertEquals(lp.getLoginMessage(), PageTitles.LogiMessage);
+	    // 1. Navigate to the actual login form first!
+	    lp.ClickOnLoginPage(); 
+	    
+	    // 2. Add a wait to ensure the page has transitioned
+	    Waits.staticWait(); 
+	    
+	    // 3. Now enter credentials
+	    lp.enterUsername("practice");
+	    lp.enterPassword("SuperSecretPassword!");
+	    lp.clickOnLogin();
+	    
+	    String str = lp.getLoginMessage();
+	    System.out.println("Login message : " + str);
+	    Assert.assertEquals(str, PageTitles.LogiMessage);
 	}
-
 	@Test(priority = 2, enabled = false)
 	public void verifyLoginFunWithInValidCredentials() {
 		lp.ClickOnLoginPage();
@@ -59,6 +63,7 @@ public class LoginTest extends SetUp {
 		lp.enterPassword("SuperSecretPassword!");
 		lp.clickOnLogin();
 		Waits.staticWait();
+		
 		String str = lp.getLoginMessage();
 
 		System.out.println("Login message : " + str);
