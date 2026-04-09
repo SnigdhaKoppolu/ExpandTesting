@@ -1,8 +1,8 @@
 package com.expandtesting.tests;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.ExpandTesting.Files.PageTitles;
@@ -20,13 +20,13 @@ public class LoginTest extends SetUp {
 
 	LoginPage lp;
 
-	@BeforeTest
+	@BeforeMethod
 	public void setUp() {
 		initialization();
 		lp = new LoginPage(driver);
 	}
 
-	@AfterTest
+	@AfterMethod
 	public void teardown() {
 		if (driver != null)
 			driver.close();
@@ -54,12 +54,18 @@ public class LoginTest extends SetUp {
 	    System.out.println("Login message : " + str);
 	    Assert.assertEquals(str, PageTitles.LogiMessage);
 	}
-	@Test(priority = 2, enabled = false)
+	
+	@Epic(value = "Login Page")
+	@Feature("Login Feature")
+	@Description("verify the login functionality with invalid credentials")
+	@Severity(SeverityLevel.CRITICAL)
+
+	@Test(priority = 2)
 	public void verifyLoginFunWithInValidCredentials() {
 		lp.ClickOnLoginPage();
 		Waits.staticWait();
-		lp.enterUsername("practice");
-		lp.enterPassword("SuperSecretPassword!");
+		lp.enterUsername("wronguser");
+		lp.enterPassword("wrongpassword");
 		lp.clickOnLogin();
 		Waits.staticWait();
 		
