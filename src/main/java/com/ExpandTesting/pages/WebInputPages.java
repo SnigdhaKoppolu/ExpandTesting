@@ -19,11 +19,11 @@ public class WebInputPages {
 	//3.constructor
 	
 	@FindBy(xpath="//a[text()='Web inputs']")
-	private WebElement webInputs;
+	private WebElement Webinputs;
 	
 	public void clickOnWebInputs() 
 	{   
-		ElementInteraction.click(webInputs,10);	
+		ElementInteraction.click(Webinputs,10);	
 	}
       
 	//Display Inputs

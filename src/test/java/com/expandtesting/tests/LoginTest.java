@@ -2,7 +2,6 @@ package com.expandtesting.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -40,7 +39,7 @@ public class LoginTest extends SetUp {
 
 	@Test(priority = 1)
 	public void verifyLoginFunWithValidCredentials() {
-	    // 1. Navigate to the actual login form first!
+	    // 1. Navigate to the actual login form first
 	    lp.ClickOnLoginPage(); 
 	    
 	    // 2. Add a wait to ensure the page has transitioned
@@ -69,5 +68,7 @@ public class LoginTest extends SetUp {
 		System.out.println("Login message : " + str);
 		Assert.assertNotEquals(lp.getLoginMessage(), PageTitles.LogiMessage);
 	}
+	
+	
 
 }

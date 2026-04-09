@@ -37,7 +37,7 @@ public class WebInputTest extends SetUp{
   public void tearDown()
   {
 	  if(driver!=null)
-		  driver.close();
+		  driver.quit();
   }
   
   @Test

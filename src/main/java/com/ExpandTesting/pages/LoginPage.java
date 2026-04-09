@@ -39,6 +39,7 @@ public class LoginPage {
 		ElementInteraction.sendkeys(password, pass);
 	}
 	
+	//login button
 	@FindBy(xpath="//button[@id='submit-login']")
 	private WebElement login;
 	public void clickOnLogin()
