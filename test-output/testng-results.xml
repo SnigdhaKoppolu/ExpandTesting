@@ -2,28 +2,36 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-28T09:40:19 IST" name="Default suite" finished-at="2026-03-28T09:41:12 IST" duration-ms="53339">
+  <suite started-at="2026-04-09T22:07:17 IST" name="Suite" finished-at="2026-04-09T22:08:33 IST" duration-ms="75311">
     <groups>
     </groups>
-    <test started-at="2026-03-28T09:40:19 IST" name="Default test" finished-at="2026-03-28T09:41:12 IST" duration-ms="53339">
-      <class name="com.expandtesting.tests.WebInputTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.expandtesting.tests.WebInputTest@18f8cd79]" started-at="2026-03-28T09:40:19 IST" name="setup" finished-at="2026-03-28T09:40:35 IST" duration-ms="16397" status="PASS">
+    <test started-at="2026-04-09T22:07:17 IST" name="Test" finished-at="2026-04-09T22:08:33 IST" duration-ms="75311">
+      <class name="com.expandtesting.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.LoginTest@49b2a47d]" started-at="2026-04-09T22:07:17 IST" name="setUp" finished-at="2026-04-09T22:07:25 IST" duration-ms="7419" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyDisplayInputs()[pri:0, instance:com.expandtesting.tests.WebInputTest@18f8cd79]" started-at="2026-03-28T09:40:35 IST" name="verifyDisplayInputs" finished-at="2026-03-28T09:40:51 IST" duration-ms="15926" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunWithValidCredentials()[pri:1, instance:com.expandtesting.tests.LoginTest@49b2a47d]" started-at="2026-04-09T22:07:25 IST" name="verifyLoginFunWithValidCredentials" finished-at="2026-04-09T22:07:37 IST" duration-ms="11929" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDisplayInputs -->
-        <test-method signature="verifyWebInputPageIsPresent()[pri:0, instance:com.expandtesting.tests.WebInputTest@18f8cd79]" started-at="2026-03-28T09:40:51 IST" name="verifyWebInputPageIsPresent" finished-at="2026-03-28T09:41:11 IST" duration-ms="20147" status="PASS">
+        </test-method> <!-- verifyLoginFunWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.expandtesting.tests.LoginTest@49b2a47d]" started-at="2026-04-09T22:07:37 IST" name="teardown" finished-at="2026-04-09T22:07:37 IST" duration-ms="597" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWebInputPageIsPresent -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.WebInputTest@18f8cd79]" started-at="2026-03-28T09:41:11 IST" name="tearDown" finished-at="2026-03-28T09:41:12 IST" duration-ms="573" status="PASS">
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.LoginTest@49b2a47d]" started-at="2026-04-09T22:07:37 IST" name="setUp" finished-at="2026-04-09T22:08:03 IST" duration-ms="25051" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.expandtesting.tests.WebInputTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunWithInValidCredentials()[pri:2, instance:com.expandtesting.tests.LoginTest@49b2a47d]" started-at="2026-04-09T22:08:03 IST" name="verifyLoginFunWithInValidCredentials" finished-at="2026-04-09T22:08:32 IST" duration-ms="29416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunWithInValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.expandtesting.tests.LoginTest@49b2a47d]" started-at="2026-04-09T22:08:32 IST" name="teardown" finished-at="2026-04-09T22:08:33 IST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.expandtesting.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

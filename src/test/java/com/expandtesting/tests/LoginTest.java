@@ -36,7 +36,7 @@ public class LoginTest extends SetUp {
 	@Feature("Login Feature")
 	@Description("verify the login functionality with invalid credentials")
 	@Severity(SeverityLevel.CRITICAL)
-
+	
 	@Test(priority = 1)
 	public void verifyLoginFunWithValidCredentials() {
 	    // 1. Navigate to the actual login form first
@@ -59,7 +59,7 @@ public class LoginTest extends SetUp {
 	@Feature("Login Feature")
 	@Description("verify the login functionality with invalid credentials")
 	@Severity(SeverityLevel.CRITICAL)
-
+	
 	@Test(priority = 2)
 	public void verifyLoginFunWithInValidCredentials() {
 		lp.ClickOnLoginPage();

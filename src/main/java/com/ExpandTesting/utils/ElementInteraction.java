@@ -1,8 +1,11 @@
 package com.ExpandTesting.utils;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
-public class ElementInteraction {
+import com.ExpandTesting.base.SetUp;
+
+public class ElementInteraction extends SetUp{
 
 	public static void click(WebElement ele)
 
@@ -20,7 +23,12 @@ public class ElementInteraction {
 
 		}
 	}
-
+	
+	public static void clickUsingJS(WebElement element) {
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    js.executeScript("arguments[0].click();", element);
+	}
+	
 	// sendkeys
 	public static void sendkeys(WebElement ele, String data) {
 		ele.sendKeys(data);
