@@ -53,9 +53,6 @@ public class LoginPage {
 	{
 		return loginMessage.getText();
 	}
-	
-	
-	
-	
+		
 	
 }
