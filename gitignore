@@ -1,0 +1,8 @@
+/target/
+/test-output/
+/allure-results/
+/bin/
+.settings/
+.project
+.classpath
+*.log
