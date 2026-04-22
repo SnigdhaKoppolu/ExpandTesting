@@ -6,7 +6,6 @@
 	<artifactId>seleniumwebdriver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
-		
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -31,7 +30,6 @@
 			</plugins>
 		
 	</build>
-
 
 	<dependencies>
 
@@ -121,7 +119,6 @@
 			<version>2.20.0</version>
 		</dependency>
 
-
 		<!-- Source:
 		https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
 		<dependency>
@@ -138,6 +135,5 @@
     <scope>runtime</scope>
 </dependency>
 	</dependencies>
-
 
 </project>

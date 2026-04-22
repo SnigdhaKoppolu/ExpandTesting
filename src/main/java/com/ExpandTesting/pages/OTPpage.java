@@ -12,6 +12,7 @@ import com.ExpandTesting.utils.Waits;
 public class OTPpage{
 	       
 	public OTPpage(WebDriver driver) {
+		
 	    PageFactory.initElements(driver, this);
 	    }
 
