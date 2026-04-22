@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import com.ExpandTesting.base.SetUp;
 
 public class ElementInteraction extends SetUp{
+	
 
 	public static void click(WebElement ele)
 

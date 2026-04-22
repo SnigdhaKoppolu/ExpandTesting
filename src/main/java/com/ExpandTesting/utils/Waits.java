@@ -30,6 +30,7 @@ public class Waits extends SetUp {
 		}
 	}
 
+	
 	/**
 	 * @Description: this element will return false if the element is not clickable
 	 *               else it will return true
@@ -50,6 +51,7 @@ public class Waits extends SetUp {
 		}
 	}
 
+	
 	// static wait for 5 seconds
 	public static void staticWait() {
 		try {
@@ -58,6 +60,7 @@ public class Waits extends SetUp {
 			e.printStackTrace();
 		}
 	}
+	
 	public static void waitForSpecificText(WebElement element, String text) {
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	    // This specifically waits for the old text to change to the new text
@@ -68,7 +71,6 @@ public class Waits extends SetUp {
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	    wait.until(ExpectedConditions.textToBePresentInElement(element, text));
 	}
-	
 	
 	
 	public static void waitForElementVisible(WebElement element) {
