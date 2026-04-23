@@ -1,1 +1,5 @@
-2026-04-09 19:21:50.233 [main] INFO  com.expandtesting.tests.WebInputTest - VerifyWebInputPage test started
+2026-04-23 16:08:19.347 [main] INFO  com.expandtesting.tests.OtpTest - TC01 - OTP Login with valid OTP started
+2026-04-23 16:08:24.853 [main] INFO  com.expandtesting.tests.OtpTest - OTP captured from landing page: 214365
+2026-04-23 16:08:43.825 [main] INFO  com.expandtesting.tests.OtpTest - TC02 - OTP Login with invalid OTP started
+2026-04-23 16:09:02.704 [main] INFO  com.expandtesting.tests.OtpTest - Error message captured: The provided OTP code is incorrect. Please check your code and try again.
+2026-04-23 16:09:08.402 [main] INFO  com.expandtesting.tests.OtpTest - TC03 - OTP Login with empty OTP started

@@ -1,5 +1,6 @@
 package com.expandtesting.tests;
 
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -7,10 +8,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.ExpandTesting.Files.PageTitles;
-import com.ExpandTesting.base.SetUp;
-import com.ExpandTesting.pages.RegisterPage;
-import com.ExpandTesting.utils.Waits;
+import com.expandtesting.Files.PageTitles;
+import com.expandtesting.utils.Waits;
+import com.expandtesting.base.SetUp;
+import com.expandtesting.pages.RegisterPage;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;

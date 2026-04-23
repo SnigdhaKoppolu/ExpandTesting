@@ -1,9 +1,10 @@
-package com.ExpandTesting.utils;
+package com.expandtesting.utils;
+
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
-import com.ExpandTesting.base.SetUp;
+import com.expandtesting.base.SetUp;
 
 public class ElementInteraction extends SetUp{
 	

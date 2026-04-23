@@ -1,4 +1,4 @@
-package com.ExpandTesting.timeouts;
+package com.expandtesting.timeouts;
 
 public class TimeUnits {
 	

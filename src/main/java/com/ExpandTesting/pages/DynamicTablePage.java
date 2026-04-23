@@ -1,4 +1,4 @@
-package com.ExpandTesting.pages;
+package com.expandtesting.pages;
 
 public class DynamicTablePage {
 	

@@ -1,4 +1,5 @@
-package com.ExpandTesting.base;
+package com.expandtesting.base;
+
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import com.ExpandTesting.timeouts.TimeUnits;
+import com.expandtesting.timeouts.TimeUnits;
 
 public class SetUp {
 

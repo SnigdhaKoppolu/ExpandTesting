@@ -1,4 +1,6 @@
-package com.ExpandTesting.utils;
+package com.expandtesting.utils;
+
+
 
 import java.time.Duration;
 
@@ -6,8 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.ExpandTesting.base.SetUp;
-import com.ExpandTesting.timeouts.TimeUnits;
+import com.expandtesting.base.SetUp;
+import com.expandtesting.timeouts.TimeUnits;
 
 public class Waits extends SetUp {
 

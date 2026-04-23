@@ -1,4 +1,4 @@
-package com.ExpandTesting.Files;
+package com.expandtesting.Files;
 
 public class FileAddress {
 
